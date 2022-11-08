@@ -1,0 +1,110 @@
+.form{
+    height: auto;
+    position: relative;
+    align-content: stretch;
+    align-items: center;
+    width: 45%;
+    margin-top:7%;
+    box-shadow: 0px 3px 6px #00000029;
+    border:1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: maroon;
+  }
+  
+  
+  .form-content{
+    
+    min-height: calc(100%-80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    
+  }
+  .formhead{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: maroon 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: normal normal bold 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: uppercase;
+    opacity: 1;
+    text-align: center;
+  }
+  
+  .row-content{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-items: center;
+  border: 0px solid green;  
+  padding: 10px;
+
+  }
+  
+  .label{
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+    
+  }
+  label{
+    color: black;
+    font: bold;
+  }
+
+  .text {
+    font-size: 20px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+  }
+  
+  .input{
+
+    font-size: 16px;
+    font-family: Roboto;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    width: 88%;
+    padding: 12px;
+    font: normal normal normal 18px/24px ;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    resize: vertical;    
+  }
+
+  .submitButton{
+    color: #42515F;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+    width: 30%;
+    background: lightgray;
+    background-color: maroon;
+  
+  }
+  
+  error-output{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+  }
+  
+  .reset{
+    color: #42515F;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-right: 50px;
+    background: lightgray;
+  }

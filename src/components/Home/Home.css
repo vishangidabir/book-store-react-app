@@ -1,0 +1,231 @@
+.ip {
+    height: -webkit-fill-available;
+    width: 100%;
+  }
+  
+  .wishlistbtn {
+    top: 392px;
+    left: 826px;
+    width: 83px;
+    height: 30px;
+    border: 1px solid #9D9D9D;
+    border-radius: 2px;
+    opacity: 1;
+    background-color: #FFFFFF;
+  }
+  
+  .logoandtitle {
+    display: flex;
+  }
+  
+  .Appclass {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    /* UI Properties */
+    background: #A03037 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .bookheading {
+    top: 83px;
+    left: 174px;
+    width: 68px;
+    height: 30px;
+    text-align: left;
+    font: normal normal normal 25px/30px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+  }
+  
+  .main {
+    top: 0px;
+    left: 0px;
+  
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    opacity: 1;
+  }
+  
+  .count {
+    top: 94px;
+    left: 249px;
+    width: 60px;
+    height: 15px;
+    text-align: left;
+    font: normal normal normal 12px/15px Lato;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+  }
+  
+  .headings {
+    padding-left: 25px;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .books {
+    top: 133px;
+    left: 171px;
+    width: 235px;
+    height: 315px;
+    /* UI Properties */
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+  .mainbody{
+    margin: 20px 30px 20px 50px;
+  }
+  .booksbody {
+  
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  
+  }
+  
+  .bookimg {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 133px;
+    left: 175px;
+    height: 171px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 2px 2px 0px 0px;
+    opacity: 1;
+  }
+  
+  .img {
+    top: 151px;
+    left: 239px;
+    width: 105px;
+    height: 135px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .title {
+  
+    font: normal normal normal 12px/9px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+  }
+  
+  .author {
+    top: 340px;
+    left: 196px;
+  
+    height: 12px;
+    text-align: left;
+    font: normal normal normal 10px/12px Lato;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+  }
+  
+  .price {
+    top: 360px;
+    left: 196px;
+    height: 15px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 12px/15px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+  }
+  
+  .btn {
+    color: white;
+    top: 392px;
+    left: 196px;
+    width: 93px;
+    height: 29px;
+    background: #A03037 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .base {
+    margin-top: 5px;
+    row-gap: 3px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  
+  .bookstoreheading {
+    top: 17px;
+    left: 201px;
+    width: 91px;
+    height: 26px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  
+  .searchbar {
+    top: 14px;
+    left: 334px;
+    width: 490px;
+    height: 33px;
+    /* UI Properties */
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+  }
+  
+  .cartname {
+  
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+  }
+  
+  .cartcount {
+    width: 12px;
+    font: normal normal bold 9px/11px Lato;
+    color: #A03037;
+    text-align-last: center;
+    border-radius: 50%;
+    background-color: seashell;
+    margin-left: 14px;
+    margin-top: -30px;
+  
+  }
+  
+  .cartlogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .outstock {
+    top: 204px;
+    margin-top: -88px;
+    justify-content: inherit;
+    width: 178px;
+    align-items: center;
+    display: flex;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2px;
+    opacity: 0.96;
+  }

@@ -1,0 +1,80 @@
+.ordersuccessimg {
+    top: 117px;
+    left: 599px;
+    width: 170px;
+    height: 225px;
+    /* background: transparent url('img/Group 4132.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+
+}
+
+.container12 {
+    display: flex;
+    flex-direction: column;
+    text-align: -webkit-center;
+
+}
+
+.message123 {
+    text-align-last: center;
+
+    font: normal normal bold 25px/30px Lato;
+    letter-spacing: -1px;
+    color: #333232;
+    text-transform: capitalize;
+
+    margin-top: -100px;
+}
+
+.message2 {
+    margin-top: 100px;
+    top: 375px;
+    left: 510px;
+    width: 348px;
+    height: 66px;
+    text-align: center;
+    font: normal normal normal 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #333232;
+    opacity: 1;
+    margin-left: 523px;
+}
+
+.th {
+    display: flex;
+    flex-direction: row;
+    top: 490px;
+    left: 308px;
+    width: 751px;
+    height: 42px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    opacity: 1;
+    margin-left: 328px;
+    margin-top: 38px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.emailus {
+    top: 504px;
+    left: 380px;
+    width: 44px;
+    height: 15px;
+    text-align: center;
+    font: normal normal medium 12px/15px Lato;
+    letter-spacing: 0px;
+    color: #333232;
+    opacity: 1;
+}
+
+.td {
+    display: flex;
+    flex-direction: row;
+    top: 490px;
+    width: 751px;
+    margin-left: 315px;
+    margin-top: 22px;
+    justify-content: space-around;
+    align-items: center;
+}
